@@ -42,58 +42,46 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNf-Ao-AXe">
                                                 <rect key="frame" x="0.0" y="0.0" width="95" height="129.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="%">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="%">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.94901960784313721" green="0.29803921568627451" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="symbolPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cf0-b7-Ncf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCv-xz-PXI">
                                                 <rect key="frame" x="100" y="0.0" width="94.5" height="129.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="AC">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="AC">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.94901960784313721" green="0.29803921568627451" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="symbolPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDq-K4-KRJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6M-2F-2w6">
                                                 <rect key="frame" x="199.5" y="0.0" width="95" height="129.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="+/-">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="+/-">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.94901960784313721" green="0.29803921568627451" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="symbolPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rnS-Lb-oHb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUq-ZX-9kS">
                                                 <rect key="frame" x="299.5" y="0.0" width="94.5" height="129.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="/">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="/">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.94901960784313721" green="0.59215686274509804" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="symbolPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qN9-8k-U8F"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -103,59 +91,46 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fm6-Xf-zLQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="95" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="7">
-                                                            <attributes>
-                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="7">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BzX-lM-cSk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRA-R6-8hU">
                                                 <rect key="frame" x="100" y="0.0" width="94.5" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="8">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="8">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="poj-bz-Ufy"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jz2-Kc-cy7">
                                                 <rect key="frame" x="199.5" y="0.0" width="95" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="9">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="9">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="moH-B8-oc6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yaC-ip-nfH">
                                                 <rect key="frame" x="299.5" y="0.0" width="94.5" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="x">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="x">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.94901960784313721" green="0.59215686274509804" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="symbolPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VuG-y7-bdV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -165,58 +140,46 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYK-VK-Rmc">
                                                 <rect key="frame" x="0.0" y="0.0" width="95" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="4">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="4">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ti-S2-dmY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5t-pi-48c">
                                                 <rect key="frame" x="100" y="0.0" width="94.5" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="5">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="5">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X0G-7z-iur"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFy-8I-1yI">
                                                 <rect key="frame" x="199.5" y="0.0" width="95" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="6">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="6">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Vn-fV-JMU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOI-Id-bYJ">
                                                 <rect key="frame" x="299.5" y="0.0" width="94.5" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="-">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="-">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.94901960784313721" green="0.59215686274509804" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="symbolPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H73-sL-7bX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -226,59 +189,46 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yu9-Xm-iPJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="95" height="129.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="1">
-                                                            <attributes>
-                                                                <font key="NSFont" size="35" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="1">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="35"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y1l-wc-f8h"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9E-Wo-O9m">
                                                 <rect key="frame" x="100" y="0.0" width="94.5" height="129.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="2">
-                                                            <attributes>
-                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                                <font key="NSFont" size="35" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="2">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="35"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xiz-SZ-y6r"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fva-Yz-RNw">
                                                 <rect key="frame" x="199.5" y="0.0" width="95" height="129.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="3">
-                                                            <attributes>
-                                                                <font key="NSFont" size="35" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="3">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="35"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E9F-sN-vpd"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBd-Na-Gak">
                                                 <rect key="frame" x="299.5" y="0.0" width="94.5" height="129.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="+">
-                                                            <attributes>
-                                                                <font key="NSFont" size="35" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="+">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="35"/>
                                                     <color key="baseBackgroundColor" red="0.94901960784313721" green="0.59215686274509804" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="symbolPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n3c-aJ-QOV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -288,16 +238,13 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcF-Ol-cnM">
                                                 <rect key="frame" x="0.0" y="0.0" width="193.5" height="130"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="0">
-                                                            <attributes>
-                                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
+                                                <buttonConfiguration key="configuration" style="filled" title="0">
+                                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                     <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J9W-O4-lcb"/>
+                                                </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="4s2-Oz-7LI">
                                                 <rect key="frame" x="200.5" y="0.0" width="193.5" height="130"/>
@@ -305,30 +252,24 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ErM-D9-aRb">
                                                         <rect key="frame" x="0.0" y="0.0" width="93.5" height="130"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled">
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content=".">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="36" name="Helvetica"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                        <buttonConfiguration key="configuration" style="filled" title=".">
+                                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                             <color key="baseBackgroundColor" red="0.13333333333333333" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDY-Cy-aPy"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcO-go-zmT">
                                                         <rect key="frame" x="100.5" y="0.0" width="93" height="130"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled">
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="=">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="36" name="Helvetica"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                        <buttonConfiguration key="configuration" style="filled" title="=">
+                                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                                             <color key="baseBackgroundColor" red="0.94901960784313721" green="0.59215686274509804" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="symbolPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="36e-Qx-kMt"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -346,6 +287,9 @@
                             <constraint firstItem="7u7-Ss-b56" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="mEj-FZ-amY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="k6s-8D-C73" id="j45-DA-2oa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
