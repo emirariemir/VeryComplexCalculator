@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var numberLabel: UILabel!
     
-    var finishedTyping: Bool = true
+    private var finishedTyping: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,24 @@ class ViewController: UIViewController {
     
     @IBAction func symbolPressed(_ sender: UIButton) {
         finishedTyping = true
+        
+        guard let number = Double(numberLabel.text!) else {
+            fatalError("Cannot convert this into a Double!")
+        }
+        
+        if let symbol = sender.titleLabel?.text {
+            if symbol == "+/-" {
+                numberLabel.text = String(number * -1)
+            }
+            
+            if symbol == "AC" {
+                numberLabel.text = "0"
+            }
+            
+            if symbol == "%" {
+                numberLabel.text = String(number / 100)
+            }
+        }
     }
     
     
