@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         }
     }
     
+    private var calcLogic = CalculatorLogic()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -34,17 +36,13 @@ class ViewController: UIViewController {
         finishedTyping = true
         
         if let symbol = sender.titleLabel?.text {
-            if symbol == "+/-" {
-                displayNumber *= -1
-            }
             
-            if symbol == "AC" {
-                displayNumber = 0
-            }
+            calcLogic.setNumber(displayNumber)
             
-            if symbol == "%" {
-                displayNumber *= 0.01
+            guard let calcValue = calcLogic.calculate(symbol: symbol) else {
+                fatalError("The return value is nil.")
             }
+            displayNumber = calcValue
         }
     }
     
@@ -56,14 +54,11 @@ class ViewController: UIViewController {
                 finishedTyping = false
             } else {
                 if num == "." {
-                    
                     let isInt = floor(displayNumber) == displayNumber
-                    
                     if !isInt {
                         return
                     }
                 }
-                
                 numberLabel.text = numberLabel.text! + num
             }
         }
