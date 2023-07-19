@@ -13,6 +13,19 @@ class ViewController: UIViewController {
     
     private var finishedTyping: Bool = true
     
+    private var displayNumber: Double {
+        get {
+            guard let number = Double(numberLabel.text!) else {
+                fatalError("Cannot convert this into a Double!")
+            }
+            return number
+        }
+        
+        set {
+            numberLabel.text = String(newValue)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -20,21 +33,17 @@ class ViewController: UIViewController {
     @IBAction func symbolPressed(_ sender: UIButton) {
         finishedTyping = true
         
-        guard let number = Double(numberLabel.text!) else {
-            fatalError("Cannot convert this into a Double!")
-        }
-        
         if let symbol = sender.titleLabel?.text {
             if symbol == "+/-" {
-                numberLabel.text = String(number * -1)
+                displayNumber *= -1
             }
             
             if symbol == "AC" {
-                numberLabel.text = "0"
+                displayNumber = 0
             }
             
             if symbol == "%" {
-                numberLabel.text = String(number / 100)
+                displayNumber *= 0.01
             }
         }
     }
@@ -46,6 +55,15 @@ class ViewController: UIViewController {
                 numberLabel.text = num
                 finishedTyping = false
             } else {
+                if num == "." {
+                    
+                    let isInt = floor(displayNumber) == displayNumber
+                    
+                    if !isInt {
+                        return
+                    }
+                }
+                
                 numberLabel.text = numberLabel.text! + num
             }
         }
