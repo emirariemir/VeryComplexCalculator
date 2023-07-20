@@ -36,13 +36,11 @@ class ViewController: UIViewController {
         finishedTyping = true
         
         if let symbol = sender.titleLabel?.text {
-            
             calcLogic.setNumber(displayNumber)
             
-            guard let calcValue = calcLogic.calculate(symbol: symbol) else {
-                fatalError("The return value is nil.")
+            if let calcValue = calcLogic.calculate(symbol: symbol) {
+                displayNumber = calcValue
             }
-            displayNumber = calcValue
         }
     }
     
